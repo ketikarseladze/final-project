@@ -19,7 +19,7 @@ a {
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  padding-left: 30px;
+  padding-left: 20px;
   vertical-align: middle;
 }
 
@@ -41,13 +41,33 @@ a:hover {
   height: 700px;
 }
 
+.pcontext {
+  padding-top: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .context {
-  margin-left: 400px;
-  margin-top: 200px;
-  width: 200px;
-  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(117, 112, 112);
+}
+
+.middletext {
+  color: aliceblue;
+  font-size: 50px;
 }
 
 p::first-letter {
-  color: red;
+  color: rgb(0, 0, 0);
+}
+
+.divg {
+  display: flex;
+  width: 100%;
+  border-color: black;
+  border-style: dotted;
 }
