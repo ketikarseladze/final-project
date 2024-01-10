@@ -1,0 +1,53 @@
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  height: auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+img {
+  width: 150px;
+  height: 55px;
+  vertical-align: middle;
+}
+
+a {
+  color: navy;
+  font-family: FiraGO;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-left: 30px;
+  vertical-align: middle;
+}
+
+a:hover {
+  color: gray;
+}
+
+.active {
+  color: #4e6fae;
+  font-family: FiraGO;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  vertical-align: middle;
+}
+.banner {
+  width: 1263px;
+  height: 700px;
+}
+
+.context {
+  margin-left: 400px;
+  margin-top: 200px;
+  width: 200px;
+  height: 100px;
+}
+
+p::first-letter {
+  color: red;
+}
