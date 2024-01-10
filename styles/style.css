@@ -1,12 +1,14 @@
 .container {
   margin: 0 auto;
-  width: 1200px;
+  width: 100%;
   height: auto;
+  padding-left: 30px;
   padding-top: 25px;
   padding-bottom: 25px;
+  background-color: lightgray;
 }
 
-img {
+.tbc {
   width: 150px;
   height: 55px;
   vertical-align: middle;
@@ -21,6 +23,10 @@ a {
   line-height: normal;
   padding-left: 20px;
   vertical-align: middle;
+}
+
+a:active {
+  color: black;
 }
 
 a:hover {
@@ -47,6 +53,7 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 70px;
 }
 
 .context {
@@ -65,9 +72,103 @@ p::first-letter {
   color: rgb(0, 0, 0);
 }
 
-.divg {
-  display: flex;
+.footer {
+  padding: 40px;
+  margin: 0 auto;
   width: 100%;
-  border-color: black;
-  border-style: dotted;
+  height: auto;
+  background-color: #243043;
+}
+
+.muse {
+  color: white;
+  font-family: Kaisei Decol;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 30px;
+}
+
+h2 {
+  color: whitesmoke;
+  font-family: Kameron;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 10px;
+}
+
+.divg {
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 1263px;
+  height: 700px;
+}
+
+img {
+  width: 150px;
+  aspect-ratio: 1/1;
+}
+
+h1 {
+  text-align: center;
+  font-family: Roboto;
+  font-weight: 800;
+}
+
+.rock {
+  padding-left: 50px;
+}
+
+.country {
+  padding-left: 50px;
+}
+
+.jazz {
+  padding-left: 50px;
+}
+
+.pop {
+  padding-left: 50px;
+}
+
+.classical {
+  padding-left: 50px;
+}
+
+.rap {
+  padding-left: 50px;
+}
+
+.edm {
+  padding-left: 50px;
+}
+
+.metal {
+  padding-left: 50px;
+}
+
+.punk {
+  padding-left: 50px;
+}
+
+.techno {
+  padding-left: 50px;
+}
+
+.indie {
+  padding-left: 50px;
+}
+
+.reggae {
+  padding-left: 50px;
+}
+
+.latin {
+  padding-left: 50px;
 }
