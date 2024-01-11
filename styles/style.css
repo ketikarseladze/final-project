@@ -78,6 +78,7 @@ p::first-letter {
   width: 100%;
   height: auto;
   background-color: #243043;
+  display: flex;
 }
 
 .muse {
@@ -100,14 +101,71 @@ h2 {
   padding: 10px;
 }
 
+.phone {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  margin: 10px;
+  vertical-align: middle;
+}
+
+h3 {
+  vertical-align: middle;
+  display: inline-block;
+  color: black;
+  font-family: Kameron;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 10px;
+}
+
+.box2 {
+  padding-top: 10px;
+  padding-left: 60px;
+}
+
+label {
+  color: whitesmoke;
+  font-family: Kameron;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+::placeholder {
+  color: #99999a;
+  font-family: Helvetica;
+}
+
+h4 {
+  color: white;
+  font-family: Karla;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.box3 {
+  padding-top: 40px;
+  padding-left: 230px;
+  display: flex;
+}
+
 .divg {
   padding-top: 30px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  align-content: space-between;
   width: 1263px;
   height: 700px;
+  margin-bottom: 60px;
 }
 
 img {
@@ -118,57 +176,142 @@ img {
 h1 {
   text-align: center;
   font-family: Roboto;
-  font-weight: 800;
+  font-weight: 1000;
+  padding-top: 5px;
 }
 
 .rock {
-  padding-left: 50px;
+  margin: 10px;
+  padding: 15px;
+  border: 2px solid black;
+  outline: navy solid 5px;
+  background-color: lightgray;
 }
 
 .country {
-  padding-left: 50px;
+  margin: 10px;
+  padding: 15px;
+  border: 2px solid black;
+  outline: navy solid 5px;
+  background-color: lightgray;
 }
 
 .jazz {
-  padding-left: 50px;
+  margin: 10px;
+  padding: 15px;
+  border: 2px solid black;
+  outline: navy solid 5px;
+  background-color: lightgray;
 }
 
 .pop {
-  padding-left: 50px;
+  margin: 10px;
+  padding: 15px;
+  border: 2px solid black;
+  outline: navy solid 5px;
+  background-color: lightgray;
 }
 
 .classical {
-  padding-left: 50px;
+  margin: 10px;
+  padding: 15px;
+  border: 2px solid black;
+  outline: navy solid 5px;
+  background-color: lightgray;
 }
 
 .rap {
-  padding-left: 50px;
+  margin: 10px;
+  padding: 15px;
+  border: 2px solid black;
+  outline: navy solid 5px;
+  background-color: lightgray;
 }
 
 .edm {
-  padding-left: 50px;
+  margin: 10px;
+  padding: 15px;
+  border: 2px solid black;
+  outline: navy solid 5px;
+  background-color: lightgray;
 }
 
 .metal {
-  padding-left: 50px;
+  margin: 10px;
+  padding: 15px;
+  border: 2px solid black;
+  outline: navy solid 5px;
+  background-color: lightgray;
 }
 
 .punk {
-  padding-left: 50px;
+  margin: 10px;
+  padding: 15px;
+  border: 2px solid black;
+  outline: navy solid 5px;
+  background-color: lightgray;
 }
 
 .techno {
-  padding-left: 50px;
+  margin: 10px;
+  padding: 15px;
+  border: 2px solid black;
+  outline: navy solid 5px;
+  background-color: lightgray;
 }
 
 .indie {
-  padding-left: 50px;
+  margin: 10px;
+  padding: 15px;
+  border: 2px solid black;
+  outline: navy solid 5px;
+  background-color: lightgray;
 }
 
 .reggae {
-  padding-left: 50px;
+  margin: 10px;
+  padding: 15px;
+  border: 2px solid black;
+  outline: navy solid 5px;
+  background-color: lightgray;
 }
 
 .latin {
-  padding-left: 50px;
+  margin: 10px;
+  padding: 15px;
+  border: 2px solid black;
+  outline: navy solid 5px;
+  background-color: lightgray;
+}
+
+.b1 {
+  color: black;
+}
+
+.r1 {
+  padding: 80px;
+  background-color: #99999a;
+  width: 100%;
+}
+
+.rockp {
+  color: #fff;
+  text-align: center;
+  font-family: Judson;
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 70px;
+}
+
+.rockt {
+  padding: 30px;
+  color: #fff;
+  text-align: center;
+  font-family: Karma;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
