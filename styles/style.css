@@ -45,6 +45,8 @@ a:hover {
 .banner {
   width: 1263px;
   height: 700px;
+  /* width: 100%;
+  height: 100%; */
 }
 
 .pcontext {
@@ -123,7 +125,7 @@ h3 {
 }
 
 .box2 {
-  padding-top: 10px;
+  padding-top: 90px;
   padding-left: 60px;
 }
 
@@ -142,6 +144,7 @@ label {
 }
 
 h4 {
+  padding-top: 5px;
   color: white;
   font-family: Karla;
   font-size: 10px;
@@ -151,7 +154,7 @@ h4 {
 }
 
 .box3 {
-  padding-top: 40px;
+  padding-top: 10px;
   padding-left: 230px;
   display: flex;
 }
@@ -314,4 +317,8 @@ h1 {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.rockt::first-letter {
+  color: #243043;
 }
