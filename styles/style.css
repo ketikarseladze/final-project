@@ -350,3 +350,18 @@ h5 {
   text-align: center;
   line-height: 64px;
 }
+
+.topsongs {
+  background-color: #001735;
+  width: 100%;
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.song {
+  width: 90%;
+  padding-bottom: 1%;
+}
