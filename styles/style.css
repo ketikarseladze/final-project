@@ -67,8 +67,14 @@ a:hover {
 }
 
 .context {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   background-color: rgb(117, 112, 112);
 }
@@ -82,6 +88,39 @@ a:hover {
 
 p::first-letter {
   color: rgb(0, 0, 0);
+}
+
+.abc {
+  padding: 5%;
+  vertical-align: middle;
+}
+
+.favalbums {
+  width: 100%;
+  background-color: rgb(117, 112, 112);
+  border: 5px solid black;
+  outline: black solid 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  padding: 5%;
+}
+
+h6 {
+  font-size: large;
+  font-size: 50px;
+  padding-bottom: 5%;
+}
+.ac {
+  padding-bottom: 1%;
+}
+
+.middletext2 {
+  width: 90%;
+  text-align: middle;
+  color: aliceblue;
+  font-size: 50px;
 }
 
 .footer {
