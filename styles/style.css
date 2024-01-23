@@ -55,11 +55,15 @@ a:hover {
 
 .pcontext {
   padding-top: 70px;
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-bottom: 70px;
+  background-color: rgb(117, 112, 112);
+  border: 5px solid black;
+  outline: black solid 5px;
+  margin: 5%;
 }
 
 .context {
@@ -70,6 +74,8 @@ a:hover {
 }
 
 .middletext {
+  width: 100%;
+  text-align: middle;
   color: aliceblue;
   font-size: 50px;
 }
@@ -364,4 +370,15 @@ h5 {
 .song {
   width: 90%;
   padding-bottom: 1%;
+}
+
+.playlists {
+  width: 100%;
+  background-color: white;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
+.play {
+  width: 100%;
 }
